@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ride Together</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111;
+    color:#fff;
+}
+
+header{
+    background:#000;
+    padding:20px 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    color:#ff6600;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+    background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+    url("https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    color:#ddd;
+    margin-bottom:30px;
+    max-width:700px;
+}
+
+.btn{
+    display:inline-block;
+    background:#ff6600;
+    color:white;
+    padding:15px 35px;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.section{
+    padding:70px 10%;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    margin-top:40px;
+}
+
+.card{
+    background:#1c1c1c;
+    padding:25px;
+    width:280px;
+    border-radius:12px;
+}
+
+.card h3{
+    color:#ff6600;
+    margin-bottom:10px;
+}
+
+.contact{
+    background:#000;
+    text-align:center;
+    padding:60px 20px;
+}
+
+footer{
+    background:#111;
+    text-align:center;
+    padding:20px;
+    color:#888;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <div class="logo">RideTogether</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Rides</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div>
+        <h1>Ride Further. Ride Together.</h1>
+
+        <p>
+            Connect with bike riders going to the same destination,
+            meet at one location, and enjoy long rides together as
+            one professional riding community.
+        </p>
+
+        <a href="#contact" class="btn">Contact Bikers</a>
+    </div>
+</section>
+
+<section class="section">
+
+<h2>Why Join Us?</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🏍 Destination Matching</h3>
+<p>Find riders heading to the same place.</p>
+</div>
+
+<div class="card">
+<h3>📍 Meet-up Point</h3>
+<p>Choose a common location before your ride.</p>
+</div>
+
+<div class="card">
+<h3>🤝 Ride as a Team</h3>
+<p>Build friendships and ride safely together.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>Ready for Your Next Adventure?</h2>
+
+<p style="margin:20px 0;">
+Join our growing community of passionate riders.
+</p>
+
+<a href="mailto:contact@ridetogether.com" class="btn">
+Contact Bikers
+</a>
+
+</section>
+
+<footer>
+
+© 2026 RideTogether | Ride Safe • Ride Smart • Ride Together
+
+</footer>
+
+</body>
+</html>
